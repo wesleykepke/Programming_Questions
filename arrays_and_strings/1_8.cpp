@@ -102,7 +102,7 @@ x = "wat"
 y = "erbottle"
 .. then yx = "erbottlewat" and xy = "waterbottle."
 If we produce the string xyxy, then we can see that yx exists in that string.
-Using "isSubstring," we will see if "str2" is then a rotation of "str1."
+Using "isSubstring," we will see if "str2" is then a rotation of "str1str1."
 */
 bool isRotation(vector<char> str1, vector<char> str2) {
 	vector<char> str1str1;
