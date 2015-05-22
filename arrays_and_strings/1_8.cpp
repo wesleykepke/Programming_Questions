@@ -1,7 +1,7 @@
 /*
 Name: Wesley Kepke
 Date: May 19, 2015
-Problem: Assume you have a method "isSubstring" which checks if one string is a 
+Problem: Assume you have a method "isSubstring" which checks if one one is a 
 substring of another. Given two strings, s1 and s2, write code to check if s2
 is a rotation of s1 using only one call to "isSubstring" (e.g., "waterbottle"
 is a rotation of "erbottlewat").
@@ -102,7 +102,7 @@ x = "wat"
 y = "erbottle"
 .. then yx = "erbottlewat" and xy = "waterbottle."
 If we produce the string xyxy, then we can see that yx exists in that string.
-Using "isSubstring," we will see if "str2" is then a rotation of "str1str1."
+Using "isSubstring," we will see if "str2" is then a rotation of "str1."
 */
 bool isRotation(vector<char> str1, vector<char> str2) {
 	vector<char> str1str1;
