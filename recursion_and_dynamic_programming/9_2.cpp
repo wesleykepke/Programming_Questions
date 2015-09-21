@@ -3,7 +3,11 @@ Name: Wesley Kepke
 Date: May 26, 2015
 Problem: Imagine a robot sitting on the upper left corner of an X by Y grid. The
 robot can only move in two directions; right and down. How many possible paths
+<<<<<<< HEAD
 are there for the robot to go from (0,0) to (X,Y)? 
+=======
+are there for the robot to go from (0,0) to (X,Y). 
+>>>>>>> d03045d4ef3530040cd261d71dd893cb59b2525d
 */
 
 #include <iostream>

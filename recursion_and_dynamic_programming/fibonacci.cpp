@@ -1,7 +1,11 @@
 /*
 Name: Wesley Kepke
 Date: May 22, 2015
+<<<<<<< HEAD
 Problem: Not really a problem. Just exploring the common implementation for a
+=======
+Problem: Not really a problem. Just exploring the comming implementation for a
+>>>>>>> d03045d4ef3530040cd261d71dd893cb59b2525d
 recursive fibonacci calculation and then using dynamic programming to improve
 the complexity.
 */
