@@ -29,7 +29,7 @@ int main(void) {
 
    // perform merge sort procedure 
    mergeSort(testArray, 0, SIZE - 1);
-   cout << "after merge" << endl; 
+   cout << "After mergeSort():" << endl; 
 
    // display results 
    for (i = 0; i < SIZE; i++) {
@@ -45,10 +45,8 @@ int main(void) {
 
 void mergeSort(int* array, int low, int high) {
    int mid = 0; 
-   cout << "Low: " << low << endl;
-   cout << "High: " << high << endl; 
    if (low < high) {
-      mid = (high - low) / 2;
+      mid = ((high - low) / 2) + low;
       mergeSort(array, low, mid);
       mergeSort(array, mid + 1, high);
       merge(array, low, high);
@@ -56,7 +54,7 @@ void mergeSort(int* array, int low, int high) {
 }
 
 void merge(int* array, int low, int high) {
-   int mid = (high - low) / 2;
+   int mid = ((high - low) / 2) + low;
    vector<int> lower;
    vector<int> higher;
    int i = low; 
