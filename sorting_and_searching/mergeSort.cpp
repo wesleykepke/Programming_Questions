@@ -1,5 +1,5 @@
 /*
-Here's my implementation of merge sort. 
+Here's my implementation of mergeSort. 
 */
 #include <iostream>
 #include <vector>
